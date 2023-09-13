@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+h2{
+    margin: 12px;
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/* Making navbar */
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.navbar a {
+    width: 18%;
+    /* border: 2px solid black; */
+    margin: 12px;
+    margin-left: -180px;
+
+    /* padding: 12px; */
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    /* transition: 3sec; */
+    text-decoration: none;
+
+}
+#item-1{
+    background-color:rgb(84, 198, 84);
+}
+#item-2{
+    background-color:rgb(129, 194, 221);
+}
+#item-3{
+    background-color:rgb(233, 44, 44);
+}
+#item-4{
+    background-color:rgb(169, 162, 162);
+}
+.navbar a:hover{
+    margin-left: 1px;
+    transition: 13sec;
+}

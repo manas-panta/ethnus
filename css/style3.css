@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    
+
+}
+/* Table section */
+.table-container{
+    /* border: 2px solid black; */
+    /* padding: 2rem; */
+    font-size: 30px;
+}
+.table-container table {
+    /* justify-self: center; */
+    margin: auto;
+    width: 100%;
+    /* text-align: center; */
+    border-collapse: collapse;
+}
+.table-container table th{
+    background-color: rgb(119, 168, 119);
+    color: rgb(231, 226, 226);
+    text-align: left;
+    font-size: 22px;
+    padding: 10px;
+}
+.table-container table tr:nth-child(odd){
+    background-color: white;
+}
+.table-container table tr:nth-child(even){
+    background-color:rgb(239, 236, 236);
+}

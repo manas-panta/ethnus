@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(119, 9, 93) ;
+    align-content: center;
+}
+
+/* heading */
+h1{
+    text-align: center;
+    margin: 0px, 25px;
+    background: linear-gradient(rgb(234, 180, 180), rgb(200, 148, 200), rgb(214, 192, 192));
+}
+
+/* Form begins */
+.formtable{
+    /* border: 2px solid green; */
+    background-color: white;
+    font-size: 25px;
+    background-color: rgb(179, 27, 110);
+    margin: 100px;
+    padding: 40px;
+}
+.formtable table{
+    margin: auto;
+}
+.formtable table tr td{
+    padding: 12px;
+}
+.box{
+    border: 2px solid rgb(117, 25, 25);
+    font-size: 20px;
+    height: 30px;
+    width: 450px;
+}
+#about{
+    width: 450px;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 2%;
+    cursor: pointer;
+    border-radius: 12px;
+}

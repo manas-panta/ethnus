@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+h2{
+    text-align: center;
+    color:white ;
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    /* border: 2px solid red; */
+    background: linear-gradient(100deg,rgb(36, 188, 212),rgb(32, 187, 102),rgb(232, 135, 74));
+}
+h2:hover{
+    color: aqua;
+    cursor:text;
+}
+
+/* Table section */
+table, tr, th, td{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 50px;
+    width: 60rem;
+    border-radius: 12px;
+    background-color: rgb(122, 201, 206);
+}
+
+/*Css box section{using grid}  */
+.container{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*this means to create a 3 column first with 300 second with 100 and third with 100 px respectively.*/
+    
+}
+.id{
+    border: 2px double rgb(144, 246, 27);
+    width: 180px;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin: 12px;
+}
+/* Designing each boxes */
+#id-1{
+    border-radius: 5px;
+}
+#id-2{
+    border-radius: 12px;
+}
+#id-3{
+    border-radius: 20px;
+}
+#id-4{
+    border-radius: 12px;
+}
+#id-5{
+    border-radius: 5px;
+}
+#id-6{
+    border-radius: 20px;
+}
+#id-7{
+    border-radius: 50%;
+    width: 200px;
+    height: 100px;
+
+}
+#id-8{
+    border-radius: 5px;
+}
+#id-9{
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+.id:hover{
+    width: 210px;
+    height: 110px;
+}

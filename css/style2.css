@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar */
+.vnavbar {
+    /* text-decoration: none; */
+    /* margin-left: 2rem; */
+    border: 1px solid black;
+    width: 15%;
+}
+
+.vnavbar ul {
+    /* border: 2px solid cadetblue; */
+    margin: 2px;
+    background-color: rgb(59, 252, 255);
+
+}
+
+.vnavbar li {
+    list-style: none;
+    /* margin: 0.5rem; */
+    padding: 0.2rem;
+
+}
+
+.vnavbar li a {
+    text-decoration: none;
+    display: block;
+}
+
+.vnavbar li:hover {
+    background-color: rgb(152, 152, 22);
+    /* color: white; */
+    cursor: pointer;
+}
+
+.vnavbar li a:hover {
+    color: white;
+
+}
+
+
+/* Horizontal nav bar */
+.hnavbar{
+    border: 2px solid black;
+    /* text-align: center; */
+    width: 36.7%;
+}
+.hnavbar ul{
+    display: flex;
+    
+}
+.hnavbar li{
+    list-style: none;
+    background-color: rgb(227, 221, 221);
+}
+.hnavbar li a{
+    text-decoration: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 30px;
+    border-right: 1px solid blue;
+    /* margin: 2PX; */
+}
+.hnavbar li a:hover{
+    background-color: rgb(241, 212, 176);
+    color: white;
+}
+

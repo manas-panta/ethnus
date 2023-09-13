@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
+table{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* padding: 20px; */
+}
+table tr th{
+    padding: 10px;
+    font-size: 18px;
+}
+table tr td{
+    padding: 3px;
+    font-size: 17px;
+}

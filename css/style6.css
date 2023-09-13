@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 229, 204);
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    /* border: 2px solid black; */
+    /* justify-content: center; */
+}
+.container table{
+    /* display: block; */
+    margin: auto;
+}
+table tr th img{
+    /* border: 1px solid black; */
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    transition: 2s;
+    
+
+}
+table tr th img:hover{
+    transform: rotate(360deg);
+    
+}
+.edit{
+    font-size: 20px;
+}
+#name ,#password{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 120px;
+    font-size: 18px;
+}
+#login{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 153px;
+    padding-right: 152px;
+    background-color: rgb(92, 234, 26);
+}
+
+#login:hover{
+    cursor: pointer;
+}
+#rem{
+    margin: 50px;
+}
+#rem{
+margin: 12px 0px;
+}
+#cancel{
+    font-size: 15px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: rgb(252, 80, 80);
+
+}
+#p1{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+#p1 span{
+    text-decoration: underline;
+}
+table tr:nth-child(8){
+background-color: rgb(225, 225, 225);
+border-collapse: collapse;
+}
